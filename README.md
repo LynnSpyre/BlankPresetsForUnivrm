@@ -8,3 +8,7 @@ This is just the blank presets. With this, I'm assuming you've already created t
 Here's the list:
 
 ![all of the presets](all-of-them.png)
+
+##Instructions
+
+Everything below assets belongs in your project. Drop it in. Let it overwrite things. Be good to each other
