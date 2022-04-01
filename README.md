@@ -11,4 +11,6 @@ Here's the list:
 
 ## Instructions
 
-Everything below assets belongs in your project. Drop it in. Let it overwrite things. Be good to each other
+**Step 1** Unzip the contents of this file to the assets folder of your project. If you drag it directly into your project in Unity, the system will move it to a safe location where it doesn't overwrite anything. But overwriting key pieces of Univrm is what we want to do.
+
+**Step 2** There really isn't a step 2. Just load up your unity project, and let it adjust to your modified code.
