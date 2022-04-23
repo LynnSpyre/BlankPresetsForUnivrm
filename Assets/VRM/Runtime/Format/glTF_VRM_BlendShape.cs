@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UniGLTF;
 using UniJSON;
@@ -35,22 +35,26 @@ namespace VRM
 
         Neutral,
         //visemes, augmented to the list to remove duplicates
-        sil,
-        PP,
-        FF,
-        TH,
-        DD,
+        ah,
+        ch,
+        dd,
+        e,
+        ff,
+        ih,
         kk,
-        CH,
-        SS,
         nn,
-        RR,
+        oh,
+        ou,
+        pp,
+        rr,
+        sil,
+        ss,
+        th,
         A, //still needed because it's used by vseeface and others
-        aa,
-        E, //ditto here
         I, //here
         O, //here
         U, //and here. Don't change these.
+
 
         Blink,
 
@@ -58,7 +62,6 @@ namespace VRM
         Joy,
         Angry,
         Smug,
-        Cute,
         Sorrow,
         Fun,
 
@@ -70,7 +73,7 @@ namespace VRM
 
         Blink_L,
         Blink_R,
-        
+
         //Arkit blank presets
         BrowInnerUp,
         BrowDownLeft,
@@ -136,27 +139,30 @@ namespace VRM
         [JsonSchema(Description = "Predefined Expression name", EnumValues = new object[] {
             "unknown",
             "neutral",
-            "sil",
-            "PP",
-            "FF",
-            "TH",
-            "DD",
+            "ah",
+            "ch",
+            "dd",
+            "e",
+            "ff",
+            "ih",
             "kk",
-            "CH",
-            "SS",
             "nn",
-            "RR",
+            "oh",
+            "ou",
+            "pp",
+            "rr",
+            "sil",
+            "ss",
+            "th",
             "A",
-            "aa",
-            "E",
             "I",
             "O",
             "U",
+
             "blink",
             "joy",
             "angry",
             "smug",
-            "cute",
             "sorrow",
             "fun",
             "lookup",
